@@ -43,7 +43,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/file' element={<App />}>
+      <Route path='/' element={<App />}>
         <Route path='recent' element={<Recent />} />
         <Route path='ays' element={<Ays />} />
         <Route path='bge' element={<Bge /> } />
