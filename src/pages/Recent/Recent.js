@@ -8,6 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Typography } from '@mui/material';
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 const Recent = () => {
     return(
@@ -36,7 +37,7 @@ const Recent = () => {
                     <TableCell align='left' component="th" scope="row">
                         Filename
                     </TableCell>
-                    <TableCell align="left">Preview</TableCell>
+                    <TableCell align="left"><CloudDownloadIcon /></TableCell>
                     <TableCell align="left">System Developer</TableCell>
                     <TableCell align="left">Updated At</TableCell>
                     <TableCell align="left">Created At</TableCell>

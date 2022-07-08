@@ -36,6 +36,7 @@ import Yge from './pages/scc/Yge';
 import Ygn from './pages/scc/Ygn';
 import Ygs from './pages/scc/Ygs';
 import Ygw from './pages/scc/Ygw';
+import Home from './Home';
 
 import Recent from './pages/Recent/Recent';
 
@@ -43,7 +44,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />}>
+    <Route path='/' element={<Home />} />
+      <Route path='/file' element={<App />}>
         <Route path='recent' element={<Recent />} />
         <Route path='ays' element={<Ays />} />
         <Route path='bge' element={<Bge /> } />

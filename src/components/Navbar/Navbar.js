@@ -7,6 +7,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+// import Button from '@mui/material/Button';
+// import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { mainNavbarItems } from './consts/navbarItems';
 import FilterDramaIcon from '@mui/icons-material/FilterDrama';
 import { navbarStyles } from './styles';
@@ -27,7 +29,9 @@ const Navbar = () => {
             <br />
             <Typography variant='text' align='center'><FilterDramaIcon sx={{ fontSize: 50 }} /></Typography>
             <Typography variant="h5" align='center'>WAANEIZA</Typography>
-            <Typography variant="subtitle2" align='center' color="secondary">System Development Team</Typography>
+            <Typography variant="subtitle2" align='center' color="secondary">System Development Team v1.0</Typography>
+            <br />
+            
             <br />
             <Divider />
             <List>
